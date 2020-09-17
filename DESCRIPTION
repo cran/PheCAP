@@ -2,7 +2,7 @@ Package: PheCAP
 Type: Package
 Title: High-Throughput Phenotyping with EHR using a Common Automated
         Pipeline
-Version: 1.1.0
+Version: 1.2.1
 Authors@R: c(
     person("Yichi", "Zhang", role = "aut"),
     person("Chuan", "Hong", role = "aut"),
@@ -21,17 +21,17 @@ License: GPL-3
 Encoding: UTF-8
 ByteCompile: yes
 Imports: graphics, methods, stats, utils, glmnet, RMySQL
-Suggests: ggplot2, e1071, randomForestSRC, xgboost, knitr
+Suggests: ggplot2, e1071, randomForestSRC, xgboost, knitr, rmarkdown
 VignetteBuilder: knitr
 Depends: R (>= 3.3.0)
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 LazyData: true
 NeedsCompilation: no
-Packaged: 2020-04-28 13:16:07 UTC; celehs
+Packaged: 2020-09-17 08:41:04 UTC; ubuntu
 Author: Yichi Zhang [aut],
   Chuan Hong [aut],
   Tianxi Cai [aut],
   PARSE LTD [aut, cre]
 Maintainer: PARSE LTD <software@parse-health.org>
 Repository: CRAN
-Date/Publication: 2020-05-02 13:10:06 UTC
+Date/Publication: 2020-09-17 09:30:18 UTC
